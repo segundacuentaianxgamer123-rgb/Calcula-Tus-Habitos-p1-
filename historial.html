@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Historial</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="background"></div>
+  <div class="overlay"></div>
+  <header class="topbar">
+    <button class="menu-btn" id="menuBtn">☰</button>
+    <h1>Historial</h1>
+  </header>
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-header"><div id="userSection"></div></div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="historial.html">Historial</a></li>
+        <li><a href="teoria.html">Teoría</a></li>
+        <li><a href="creditos.html">Créditos</a></li>
+      </ul>
+    </nav>
+    <button id="logoutBtn" class="logout-btn">Cerrar sesión</button>
+  </aside>
+
+  <div class="container">
+    <div class="card table-card">
+      <h2>Historial de registros</h2>
+      <table id="historialTabla">
+        <thead>
+          <tr><th>Fecha</th><th>IMC</th><th>Sueño (h)</th><th>Ejercicio (min)</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Teoría</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="background"></div>
+  <div class="overlay"></div>
+
+  <header class="topbar">
+    <button class="menu-btn" id="menuBtn">☰</button>
+    <h1>Teoría</h1>
+  </header>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-header"><div id="userSection"></div></div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="historial.html">Historial</a></li>
+        <li><a href="teoria.html" class="active">Teoría</a></li>
+        <li><a href="creditos.html">Créditos</a></li>
+      </ul>
+    </nav>
+    <button id="logoutBtn" class="logout-btn">Cerrar sesión</button>
+  </aside>
+
+  <div class="container">
+    <div class="card teoria-card">
+      <h2>📈 Funciones Crecientes y Decrecientes: ¿Qué Son y Cómo Se Relacionan con Tus Hábitos?</h2>
+      <p>
+        En matemáticas, una <strong>función creciente</strong> es aquella en la que, al aumentar el valor de entrada
+        (por ejemplo, el tiempo o una variable como el ejercicio), el valor de salida también aumenta.
+      </p>
+      <p>
+        Por el contrario, una <strong>función decreciente</strong> es aquella en la que, al aumentar el valor de entrada,
+        el valor de salida disminuye.
+      </p>
+<br><br>
+      <h3>🔍 ¿Cómo se calcula si una función es creciente o decreciente?</h3>
+      <p>
+        Para saber si una función es creciente o decreciente, se analiza la diferencia entre los valores de la función en distintos puntos.
+        Si al comparar dos valores cercanos el segundo es mayor que el primero, la función está <strong>creciendo</strong>.
+        Si es menor, está <strong>decreciendo</strong>.
+      </p>
+
+      <pre>
+Si f(x₂) − f(x₁) &gt; 0  cuando  x₂ &gt; x₁ → Función creciente  
+Si f(x₂) − f(x₁) &lt; 0  cuando  x₂ &gt; x₁ → Función decreciente
+      </pre><br>
+
+      <h3>🧠 ¿Qué tiene que ver esto con "Calcula tus hábitos"?</h3>
+      <p>
+        En nuestra plataforma <strong>"Calcula tus hábitos"</strong>, tú ingresas datos como:
+      </p>
+      <ul>
+        <li>Tu peso y altura (para calcular tu IMC)</li>
+        <li>Las horas que duermes</li>
+        <li>Los minutos de ejercicio diario</li>
+      </ul>
+
+      <p>
+        Con esta información, generamos una gráfica personalizada que muestra cómo tus hábitos influyen en tu bienestar.
+        Aquí es donde entra el concepto de <strong>funciones crecientes y decrecientes</strong>:
+      </p>
+
+      <ul>
+        <li>Si al aumentar tus minutos de ejercicio tu IMC disminuye, estamos viendo una <strong>función decreciente</strong>.</li>
+        <li>Si al aumentar tus horas de sueño tu nivel de energía mejora, eso representa una <strong>función creciente</strong>.</li>
+      </ul>
+
+      <p>
+        Estas relaciones nos permiten visualizar tendencias y darte recomendaciones personalizadas.
+        Por ejemplo, si notamos que al dormir más tu rendimiento mejora, te sugeriremos mantener o aumentar tus horas de sueño.
+      </p><br>
+
+      <h3>📊 ¿Por qué es importante?</h3>
+      <p>
+        Entender si tus hábitos generan efectos positivos o negativos es clave para mejorar tu salud.
+        Las funciones crecientes y decrecientes nos ayudan a interpretar tus datos de forma visual y matemática,
+        para que tomes decisiones informadas sobre tu estilo de vida.
+      </p><br>
+
+      <hr>
+<br>
+      <h3>📚 Aplicación práctica en esta plataforma</h3>
+      <p>
+        En <strong>Calcula tus Hábitos</strong>, las gráficas te muestran visualmente si tus hábitos están mejorando o empeorando:
+      </p>
+      <ul>
+        <li>📉 Si el peso aumenta mientras el ejercicio baja → tendencia negativa.</li>
+        <li>💪 Si el ejercicio y el sueño aumentan → tendencia positiva.</li>
+        <li>😴 Si duermes poco y haces poco ejercicio → se sugiere mejorar tus hábitos.</li>
+      </ul>
+
+      <p>
+        Estas observaciones, junto con las gráficas generadas, te ayudan a entender la relación entre tus rutinas diarias
+        y tu bienestar general.
+      </p>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
